@@ -7,14 +7,53 @@ body {
     align-items: center;
     padding: 50px 50px;
     box-sizing: border-box;
+    background-color: #e6296b6b;
 }
 
 nav {
     width: 80%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
     nav a {
        text-decoration: none;
        color: #000;
     }
+
+.container {
+    background-color: #5f680cc4;
+    height: 500px;
+    width: 1500px;
+    /* box-shadow: #000 2px 2px 2px 2px; */
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    color: antiquewhite;
+}
+
+.upper {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.argum {
+    height: 250px;
+    width: 300px;
+    background-color: blanchedalmond;
+    border-radius: 40px;
+    color: #483C32;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: #483C32 4px 4px 2px 2px;
+    
+}
+
+.titel {
+    border-bottom: #483C32 solid thick;
+    padding-bottom: 10px;
+}
