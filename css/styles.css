@@ -25,7 +25,8 @@ nav {
     background-color: #5f680cc4;
     height: 500px;
     width: 1500px;
-    /* box-shadow: #000 2px 2px 2px 2px; */
+    /* box-shadow: #483C32 8px 8px 2px 2px; */
+    box-shadow: inset #483C32 0px 0px 4px 4px;
     border-radius: 60px;
     display: flex;
     flex-direction: column;
@@ -49,11 +50,34 @@ nav {
     color: #483C32;
     font-size: 25px;
     text-align: center;
-    box-shadow: #483C32 4px 4px 2px 2px;
+    box-shadow: #483C32 8px -8px 2px 2px;
     
 }
 
 .titel {
     border-bottom: #483C32 solid thick;
     padding-bottom: 10px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.content {
+    height: 195px;
+}
+
+.content-title {
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.content-list {
+    margin: 0;
+    padding: 20px 30px;
+    font-size: 20px;
+    list-style-position: inside;
+    list-style-type: square;
+    text-align: left;
+    height: 195px;
+    box-sizing: border-box;
 }
