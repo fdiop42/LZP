@@ -23,7 +23,7 @@ nav {
 
 .container {
     background-color: #5f680cc4;
-    height: 500px;
+    height: 550px;
     width: 1500px;
     /* box-shadow: #483C32 8px 8px 2px 2px; */
     box-shadow: inset #483C32 0px 0px 4px 4px;
@@ -34,6 +34,7 @@ nav {
     padding: 30px 20px;
     box-sizing: border-box;
     color: antiquewhite;
+    gap: 40px;
 }
 
 .upper {
@@ -80,4 +81,20 @@ nav {
     text-align: left;
     height: 195px;
     box-sizing: border-box;
+}
+
+.lower {
+    width: 85%;
+    background-color: blanchedalmond;
+    height: 170px;
+    color:#483C32;
+    font-size: 25px;
+}
+
+    .lower p {
+        text-align: center;
+    }
+
+.lower-content {
+    text-align: left;
 }
